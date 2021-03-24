@@ -17,11 +17,20 @@ npm i body-parser cors express pg pg-hstore sequelize
 
 
 
+ ## SCREENSHOOT
+ 
+<img src="https://github.com/bedsongultom/test_2021/blob/master/images/tasks.png" width="800" height="500"> 
+
+<img src="https://github.com/bedsongultom/test_2021/blob/master/images/users.png" width="800" height="500">
 
 
-## create database test2012db;
+<img src="https://github.com/bedsongultom/test_2021/blob/master/images/view.png" width="800" height="500">
+
+
 
 ``` 
+CREATE DATABASE test2012db;
+
 CREATE TABLE tasks
 (
     tasks_id SERIAL,
@@ -45,13 +54,5 @@ CREATE OR REPLACE VIEW public.view_users_tasks AS
      JOIN users ON tasks.users_id = users.users_id;
      
      
- ## create database test2012db;    
-<img src="https://github.com/bedsongultom/test_2021/blob/master/images/tasks.png" width="800" height="500"> 
-
-<img src="https://github.com/bedsongultom/test_2021/blob/master/images/users.png" width="800" height="500">
-
-
-<img src="https://github.com/bedsongultom/test_2021/blob/master/images/view.png" width="800" height="500">
-
 
 
