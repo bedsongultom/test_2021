@@ -53,6 +53,18 @@ npm i body-parser cors express pg pg-hstore sequelize
 
 
 ``` 
+C:\Program Files\PostgreSQL\9.6\bin>psql -U postgres
+Password for user postgres:
+psql (9.6.5)
+WARNING: Console code page (437) differs from Windows code page (1252)
+         8-bit characters might not work correctly. See psql reference
+         page "Notes for Windows users" for details.
+Type "help" for help.
+
+postgres=#
+
+
+
 CREATE DATABASE test2012db;
 
 CREATE TABLE tasks
