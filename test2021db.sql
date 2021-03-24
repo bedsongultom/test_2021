@@ -140,6 +140,7 @@ COPY tasks (tasks_id, tasks, users_id) FROM stdin;
 1	Buy eggs	1
 2	Buy milk	1
 3	Buy milk	2
+4	Buy sugar	4
 \.
 
 
@@ -147,7 +148,7 @@ COPY tasks (tasks_id, tasks, users_id) FROM stdin;
 -- Name: tasks_tasks_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('tasks_tasks_id_seq', 1, true);
+SELECT pg_catalog.setval('tasks_tasks_id_seq', 4, true);
 
 
 --
@@ -155,8 +156,9 @@ SELECT pg_catalog.setval('tasks_tasks_id_seq', 1, true);
 --
 
 COPY users (users_id, users, createdat, updatedat) FROM stdin;
-1	\N	2021-03-24 14:26:51.947281+00	2021-03-24 14:26:51.947281+00
-2	\N	2021-03-24 14:38:39.876 +00:00	2021-03-24 14:38:39.876 +00:00
+1	example1@email.com	2021-03-24 14:26:51.947281+00	2021-03-24 14:26:51.947281+00
+2	example2@email.com	2021-03-24 14:38:39.876 +00:00	2021-03-24 14:38:39.876 +00:00
+4	example3@email.com	2021-03-24 17:28:42.255 +00:00	2021-03-24 17:28:42.255 +00:00
 \.
 
 
@@ -164,7 +166,7 @@ COPY users (users_id, users, createdat, updatedat) FROM stdin;
 -- Name: users_users_id_seq; Type: SEQUENCE SET; Schema: public; Owner: postgres
 --
 
-SELECT pg_catalog.setval('users_users_id_seq', 2, true);
+SELECT pg_catalog.setval('users_users_id_seq', 4, true);
 
 
 --

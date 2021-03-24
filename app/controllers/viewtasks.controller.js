@@ -10,7 +10,7 @@ const viewTasks = db.viewTasks;
  **/
 
 
-exports.listall = (req, res) => {
+exports.listallcommon = (req, res) => {
     // to find all tasks 's users  
     try{
         viewTasks.findAll({attributes: ['tasks','users']})
