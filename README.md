@@ -37,6 +37,8 @@ npm i body-parser cors express pg pg-hstore sequelize
     users character varying(30)
     
 )
+<img src="https://github.com/bedsongultom/test_2021/blob/master/images/users.png" width="800" height="500">
+
 
 ## CREATE OR REPLACE VIEW public.view_users_tasks AS
  SELECT tasks.tasks_id,
@@ -46,7 +48,7 @@ npm i body-parser cors express pg pg-hstore sequelize
    FROM tasks
      JOIN users ON tasks.users_id = users.users_id;
 
-
+<img src="https://github.com/bedsongultom/test_2021/blob/master/images/view.png" width="800" height="500">
 
 
 
