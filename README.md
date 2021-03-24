@@ -30,6 +30,10 @@ npm i body-parser cors express pg pg-hstore sequelize
 
 <img src="https://github.com/bedsongultom/test_2021/blob/master/images/view.png" width="800" height="500">
 
+[x] to run node server.js
+
+<img src="https://github.com/bedsongultom/test_2021/blob/master/images/noderun.png" width="800" height="500">
+
 
 [x] POST /api/users https://localhost:3000/api/users
 
