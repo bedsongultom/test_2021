@@ -29,25 +29,27 @@ CREATE TABLE tasks
     users_id integer
 )
 
-### <img src="https://github.com/bedsongultom/test_2021/blob/master/images/tasks.png" width="800" height="500">
-
-
-``` ## CREATE TABLE users
+CREATE TABLE users
 (
     users_id SERIAL,
     users character varying(30)
     
 )
-<img src="https://github.com/bedsongultom/test_2021/blob/master/images/users.png" width="800" height="500">
 
-
-## CREATE OR REPLACE VIEW public.view_users_tasks AS
+CREATE OR REPLACE VIEW public.view_users_tasks AS
  SELECT tasks.tasks_id,
     tasks.tasks,
     tasks.users_id,
     users.users
    FROM tasks
      JOIN users ON tasks.users_id = users.users_id;
+     
+     
+ ## create database test2012db;    
+<img src="https://github.com/bedsongultom/test_2021/blob/master/images/tasks.png" width="800" height="500"> 
+
+<img src="https://github.com/bedsongultom/test_2021/blob/master/images/users.png" width="800" height="500">
+
 
 <img src="https://github.com/bedsongultom/test_2021/blob/master/images/view.png" width="800" height="500">
 
