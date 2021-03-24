@@ -1,5 +1,3 @@
-//https://github.com/loizenai/Nodejs-Tutorials/tree/master/Nodejs-Reactjs-PostgreSQL-Example
-
 module.exports = (sequelize, Sequelize) => {
 	const Users = sequelize.define('users', {	
 	  users_id: {

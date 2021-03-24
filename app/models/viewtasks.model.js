@@ -1,5 +1,5 @@
 module.exports = (sequelize, Sequelize) => {
-	const Tasks = sequelize.define('tasks', {	
+	const viewTasks = sequelize.define('view_users_tasks', {	
 	  tasks_id: {
             type: Sequelize.INTEGER,
             autoIncrement: true,
@@ -11,11 +11,18 @@ module.exports = (sequelize, Sequelize) => {
 		
   },
 
-	  users_id: {
-			type: Sequelize.INTEGER
+	  users: {
+			type: Sequelize.STRING
 			
-			
-    }
+    },
+
+	
+	users_id: {
+		type: Sequelize.INTEGER
+		
+}
+
+
 },
 
 {
@@ -23,6 +30,7 @@ module.exports = (sequelize, Sequelize) => {
     
 	});
 	
-	return Tasks;
+	return viewTasks;
 }
+
 

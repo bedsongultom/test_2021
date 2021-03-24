@@ -21,6 +21,6 @@ db.sequelize = sequelize;
 
 db.Users = require('../models/users.model.js')(sequelize, Sequelize);
 db.Tasks = require('../models/tasks.model.js')(sequelize, Sequelize);
-db.viewTasks = require('../models/tasks.model.js')(sequelize, Sequelize);
+db.viewTasks = require('../models/viewtasks.model.js')(sequelize, Sequelize);
 
 module.exports = db;
