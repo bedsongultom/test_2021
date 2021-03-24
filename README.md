@@ -21,7 +21,7 @@ npm i body-parser cors express pg pg-hstore sequelize
 
 ## create database test2012db;
 
-## CREATE TABLE tasks
+``` ## CREATE TABLE tasks
 (
     tasks_id SERIAL,
     tasks character varying(30),
