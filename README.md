@@ -31,12 +31,19 @@ npm i body-parser cors express pg pg-hstore sequelize
 <img src="https://github.com/bedsongultom/test_2021/blob/master/images/view.png" width="800" height="500">
 
 
+[x] POST /api/users https://localhost:3000/api/users
 
 <img src="https://github.com/bedsongultom/test_2021/blob/master/images/api_users.png" width="800" height="500">
 
+[x] POST /api/assign https://localhost:3000/api/assign
+
 <img src="https://github.com/bedsongultom/test_2021/blob/master/images/post_assign.png" width="800" height="500">
 
+[x] DELETE /api/unassign https://localhost:3000/api/unassign
+
 <img src="https://github.com/bedsongultom/test_2021/blob/master/images/delete_ussign.png" width="800" height="500">
+
+[x] GET /api/tasks/common  https://localhost:3000/api/tasks/common
 
 <img src="https://github.com/bedsongultom/test_2021/blob/master/images/common.png" width="800" height="500">
 
