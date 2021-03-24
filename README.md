@@ -28,10 +28,10 @@ npm i body-parser cors express pg pg-hstore sequelize
     users_id integer
 )
 
-<img src="https://github.com/bedsongultom/test_2021/blob/master/images/tasks.png" width="800" height="500">
+### <img src="https://github.com/bedsongultom/test_2021/blob/master/images/tasks.png" width="800" height="500">
 
 
-## CREATE TABLE users
+``` ## CREATE TABLE users
 (
     users_id SERIAL,
     users character varying(30)
