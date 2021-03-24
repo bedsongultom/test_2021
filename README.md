@@ -18,13 +18,30 @@ npm i body-parser cors express pg pg-hstore sequelize
 
 
  ## SCREENSHOOT
+ [x] tasks is table
  
 <img src="https://github.com/bedsongultom/test_2021/blob/master/images/tasks.png" width="800" height="500"> 
 
+[x] users is table
+
 <img src="https://github.com/bedsongultom/test_2021/blob/master/images/users.png" width="800" height="500">
 
+[x] view_users_tasks is view
 
 <img src="https://github.com/bedsongultom/test_2021/blob/master/images/view.png" width="800" height="500">
+
+
+
+<img src="https://github.com/bedsongultom/test_2021/blob/master/images/api_users.png" width="800" height="500">
+
+<img src="https://github.com/bedsongultom/test_2021/blob/master/images/post_assign.png" width="800" height="500">
+
+<img src="https://github.com/bedsongultom/test_2021/blob/master/images/delete_ussign.png" width="800" height="500">
+
+<img src="https://github.com/bedsongultom/test_2021/blob/master/images/common.png" width="800" height="500">
+
+
+
 
 
 
