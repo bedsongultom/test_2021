@@ -13,7 +13,8 @@ Setting up an Express.js server
 ## second step
 We are going to install body-parser cors express pg pg-hstore sequelize.
 
-npm i body-parser cors express pg pg-hstore sequelize
+npm install body-parser cors express pg pg-hstore sequelize
+and 
 npm init -y
 
 
