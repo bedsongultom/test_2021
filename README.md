@@ -19,36 +19,36 @@ npm init -y
 
 
  ## SCREENSHOOT
- *[x] tasks is table
+ * [x] tasks is table
  
 <img src="https://github.com/bedsongultom/test_2021/blob/master/images/tasks.png" width="800" height="500"> 
 
-*[x] users is table
+* [x] users is table
 
 <img src="https://github.com/bedsongultom/test_2021/blob/master/images/users.png" width="800" height="500">
 
-*[x] view_users_tasks is view
+* [x] view_users_tasks is view
 
 <img src="https://github.com/bedsongultom/test_2021/blob/master/images/view.png" width="800" height="500">
 
-*[x] to run node server.js
+* [x] to run node server.js
 
 <img src="https://github.com/bedsongultom/test_2021/blob/master/images/noderun.png" width="800" height="500">
 
 
-*[x] POST /api/users https://localhost:3000/api/users
+* [x] POST /api/users https://localhost:3000/api/users
 
 <img src="https://github.com/bedsongultom/test_2021/blob/master/images/api_users.png" width="800" height="500">
 
-*[x] POST /api/assign https://localhost:3000/api/assign
+* [x] POST /api/assign https://localhost:3000/api/assign
 
 <img src="https://github.com/bedsongultom/test_2021/blob/master/images/post_assign.png" width="800" height="500">
 
-*[x] DELETE /api/unassign https://localhost:3000/api/unassign
+* [x] DELETE /api/unassign https://localhost:3000/api/unassign
 
 <img src="https://github.com/bedsongultom/test_2021/blob/master/images/delete_ussign.png" width="800" height="500">
 
-*[x] GET /api/tasks/common  https://localhost:3000/api/tasks/common
+* [x] GET /api/tasks/common  https://localhost:3000/api/tasks/common
 
 <img src="https://github.com/bedsongultom/test_2021/blob/master/images/common.png" width="800" height="500">
 
