@@ -55,7 +55,7 @@ npm init -y
 
 
 ## How to test
-git clone https://github.com/bedsongultom/test_2021.git
+``` git clone https://github.com/bedsongultom/test_2021.git
 or 
 git clone git@github.com:bedsongultom/test_2021.git
 
@@ -64,7 +64,7 @@ git clone git@github.com:bedsongultom/test_2021.git
 
 
 
-``` 
+
 C:\Program Files\PostgreSQL\9.6\bin>psql -U postgres
 Password for user postgres:
 psql (9.6.5)
