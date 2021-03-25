@@ -15,7 +15,7 @@ We are going to install body-parser cors express pg pg-hstore sequelize.
 
 npm install body-parser cors express pg pg-hstore sequelize
 and 
-npm init -y
+npm init -y or npm init 
 
 
 
