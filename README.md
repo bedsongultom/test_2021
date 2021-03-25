@@ -54,8 +54,9 @@ npm init -y
 
 
 ## How to test
-```
 git clone https://github.com/bedsongultom/test_2021.git
+or 
+git clone git@github.com:bedsongultom/test_2021.git
 
 
 
