@@ -1,4 +1,5 @@
 # test_2021
+This is an application about api crud with nodejs, express, sequalize(ORM) and ansyc wait + PostgreSQL database.
 
 Setting up an Express.js server
 
